@@ -21,19 +21,17 @@ The philosophy behind Conductor is simple: control your code. By treating contex
 
 ### Claude Code
 
-Install the Conductor plugin by running the following command:
+Install the Conductor plugin using the `/plugin` slash command inside Claude Code:
 
-```bash
-claude plugins install https://github.com/fcoury/conductor
+```
+# Step 1: Add the marketplace
+/plugin marketplace add fcoury/conductor
+
+# Step 2: Install the plugin
+/plugin install conductor@fcoury-conductor
 ```
 
-Or add it to your project's `.claude/plugins.json`:
-
-```json
-{
-  "plugins": ["https://github.com/fcoury/conductor"]
-}
-```
+Or use the interactive plugin manager by typing `/plugin` and navigating to the Marketplaces tab.
 
 ### Gemini CLI
 

@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "conductor",
+      "description": "Context-Driven Development framework for spec-driven, structured software development",
+      "path": ".."
+    }
+  ]
+}
