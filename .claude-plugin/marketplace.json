@@ -3,10 +3,14 @@
   "owner": {
     "name": "Felipe Coury"
   },
+  "metadata": {
+    "description": "Context-Driven Development tools for spec-driven software development",
+    "pluginRoot": ".."
+  },
   "plugins": [
     {
       "name": "conductor",
-      "source": "..",
+      "source": "./",
       "description": "Context-Driven Development framework for spec-driven, structured software development"
     }
   ]
