@@ -1,9 +1,13 @@
 {
+  "name": "conductor",
+  "owner": {
+    "name": "Felipe Coury"
+  },
   "plugins": [
     {
       "name": "conductor",
-      "description": "Context-Driven Development framework for spec-driven, structured software development",
-      "path": ".."
+      "source": "..",
+      "description": "Context-Driven Development framework for spec-driven, structured software development"
     }
   ]
 }
