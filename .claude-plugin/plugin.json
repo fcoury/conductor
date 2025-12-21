@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "Context-Driven Development framework for spec-driven, structured software development. Transforms Claude Code into a project manager that follows a strict lifecycle: Context > Spec & Plan > Implement.",
   "author": {
-    "name": "Conductor Team"
+    "name": "Felipe Coury"
   },
-  "repository": "https://github.com/gemini-cli-extensions/conductor",
+  "repository": "https://github.com/fcoury/conductor",
   "license": "Apache-2.0",
   "keywords": [
     "development",
@@ -14,5 +14,6 @@
     "spec-driven",
     "project-management",
     "workflow"
-  ]
+  ],
+  "commands": "./commands"
 }
