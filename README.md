@@ -33,6 +33,25 @@ Install the Conductor plugin using the `/plugin` slash command inside Claude Cod
 
 Or use the interactive plugin manager by typing `/plugin` and navigating to the Marketplaces tab.
 
+### Codex CLI (OpenAI)
+
+Install the Conductor prompt files by copying them to your Codex prompts directory:
+
+```bash
+# Clone the repository
+git clone https://github.com/fcoury/conductor.git /tmp/conductor
+
+# Create prompts directory if needed
+mkdir -p ~/.codex/prompts
+
+# Copy the prompt files
+cp /tmp/conductor/prompts/*.md ~/.codex/prompts/
+```
+
+Commands are invoked with the `/prompts:` prefix (e.g., `/prompts:conductor-setup`).
+
+See [CODEX.md](CODEX.md) for detailed Codex CLI documentation.
+
 ### Gemini CLI
 
 Install the Conductor extension by running the following command from your terminal:
